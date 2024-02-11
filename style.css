@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+#container div h3{
+    font-size: 2rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    height: auto;
+}
+
+.griditems{
+    height: 15px;
+    width: 15px;
+    /* background-color: white; */
+    border-radius: 50%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.white{
+    background-color: white;
+}
+
+p{
+    margin-top: 100px;
+}
+
+
+/* .grid1one{
+     .grid1 .griditems{
+        background-color: red;
+    };
+
+    .grid1 .item5{
+        background-color: white;
+    };
+}
+
+.grid1two{
+    .grid1 .griditems{
+        background-color: red;
+    }
+
+    .grid1 item3,item7{
+        background-color: white;
+    }
+}
+
+.grid1three{
+    .grid1 .griditems{
+        background-color: red;
+    }
+
+    .grid1 item3,item5,item7{
+        background-color: white;
+    }
+}
+
+.grid1four{
+    .grid1 .griditems{
+        background-color: red;
+    }
+
+    .grid1 item1,item3,itme7,item9{
+        background-color: white;
+    }
+}
+
+.grid1five{
+    .grid1 .griditems{
+        background-color: red;
+    }
+
+    .grid1 item1,item3,item5,itme7,item9{
+        background-color: white;
+    }
+}
+
+.grid1six{
+    .grid1 .griditems{
+        background-color: red;
+    }
+
+    .grid1 item1,item3,itme4,item6,item7,item9{
+        background-color: white;
+    }
+} */
